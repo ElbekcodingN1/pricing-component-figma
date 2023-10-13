@@ -1,0 +1,296 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7FE;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper_bg{
+    width:100%;
+    height: 850px;
+    margin:0 auto;
+    background-image:url(../img/bacround-left-bottom.png), url(../img/bacround-top-right.png); 
+    background-repeat:no-repeat;
+    background-position:left bottom , top right;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+   
+
+
+    .header_info{
+        margin:0 auto;
+        width: 239px;
+        margin-bottom: 64px;
+
+        h1{
+            color: #6E728E;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: normal;
+            margin-top:40px;
+            margin-bottom: 40px;
+        }
+        .annually{
+            display: flex;
+            justify-content: space-between;
+            p{
+                color: #6E728E;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 28px; 
+                opacity: 0.5;
+            }
+            .oval{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                width: 56px;
+                height: 32px;
+                border-radius:20px;
+                background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+                .oval_white{
+                    width: 24px;
+                    height: 24px;
+                    background-color:white;
+                    border-radius: 24px;
+                    transition: 0.8s;
+                }
+            }
+            .oval:hover{
+                background: linear-gradient(135deg, #dcdfff 0%, #e7e8f8 100%);
+                cursor:pointer;
+            }
+            .oval_white:hover{
+                transform: translateX(-30px);
+                cursor:pointer;
+            }
+        }
+    }
+    .main_info{
+
+        .item_info{
+             display: flex;
+             align-items:center;
+            .cards{
+                padding:31px;
+                // width: 350px;
+                // height: 453px;
+                border-radius: 10px 0px 0px 10px;
+                background: #FFF;
+                box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+
+                .basic{
+                    color: #6E728E;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin-bottom: 24px;
+                }
+                .text{
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    gap:8px;
+                    .money{
+                        color: #4A4D60;
+                        font-size: 40px;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -1.2px;
+                        margin-bottom: 32px;
+                        
+                    }
+                    h1{
+                        color: #4A4D60;
+                        font-size: 72px;
+                        font-weight: 700;
+                        line-height: 71px; 
+                        letter-spacing: -2.16px;
+                        margin-bottom: 32px;
+                    }
+                }
+                .line{
+                    width: 288px;
+                    height: 1px;
+                    opacity: 0.25;
+                    margin-bottom: 12px;
+                    background: #6E728E;
+                }
+                .storage{
+                    color: #6E728E;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px; 
+                    margin-bottom: 12px;
+                }
+                .user{
+                    color: #6E728E;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin-bottom: 12px;
+                }
+                .send{
+                    color: #6E728E;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px; 
+                    margin-bottom: 12px;
+                }
+                button{
+                    padding:14px 66px;
+                    border:none;
+                    border-radius: 6px;
+                    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+                    color: #FFF;
+                    margin:32px 0px 31px 31px;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.393px;
+                    transition: 0.5s;
+                }
+                button:hover{
+                    border: 1px solid #6D72DE;
+                    background: #FFF;
+                    color: #6D72DE;
+                    cursor:pointer;
+                }
+            }
+
+            .cards_2{
+                padding:54px 31px ;
+                // width: 350px;
+                // height: 500px;
+                border-radius: 10px;
+                background: linear-gradient(135deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+                box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+
+                .professional{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px; 
+                    margin-bottom: 24px;
+                }
+                .text{
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    gap:8px;
+                    .money{
+                        color: #FFF;
+                        font-size: 40px;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -1.2px;
+                        margin-bottom: 32px;
+                        
+                    }
+                    h1{
+                        color: #FFF;
+                        font-size: 72px;
+                        font-weight: 700;
+                        line-height: 71px; 
+                        letter-spacing: -2.16px;
+                        margin-bottom: 32px;
+                    }
+                }
+                .line{
+                    width: 288px;
+                    height: 1px;
+                    opacity: 0.25;
+                    margin-bottom: 12px;
+                    background: #FFF;
+                }
+                .tb_storage{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px; 
+                    margin-bottom: 12px;
+                }
+                .user_5{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin-bottom: 12px;
+                }
+                .send_up{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 28px; 
+                    margin-bottom: 12px;
+                }
+                button{
+                    padding:14px 66px;
+                    border:none;
+                    border-radius: 6px;
+                    background: #FFF;
+                    color: #6D72DE;
+                    margin:32px 0px 31px 31px;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.393px;
+                    transition: 0.5s;
+                }
+                button:hover{
+                    border:1px solid white;
+                    background-color: #6D72DE;
+                    color:white;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1060px) {
+    .wrapper_bg{
+        background-image:url(../img/bacround-mobile.png);
+        background-repeat:no-repeat;
+        background-position: top right;
+    }
+
+    .container{
+        max-width: 327px;
+        padding-bottom: 71px;
+        .header_info{
+            margin:64px auto;
+            width: 239px;
+            margin-bottom: 64px;
+        }
+
+     .main_info{
+        .item_info{
+            display: flex;
+            flex-direction: column;
+            row-gap:32px;
+         
+            .cards{
+                border-radius: 10px;
+
+            }
+
+        }
+     }
+}
+}
